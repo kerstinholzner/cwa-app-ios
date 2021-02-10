@@ -7,7 +7,7 @@ import XCTest
 
 class SurveyURLServiceTests: XCTestCase {
 
-	func test_WHEN_getURLIsCalled_THEN_AnURLIstReturned() {
+	func test_WHEN_getURLIsCalled_THEN_aURLIstReturned() {
 		let store = MockTestStore()
 		let client = ClientMock()
 		let otpService = OTPService(store: store, client: client, riskProvider: MockRiskProvider())
