@@ -747,6 +747,7 @@
 		EBB92C72259E10ED00013B41 /* UpdateOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB92C71259E10ED00013B41 /* UpdateOSViewController.swift */; };
 		EBB92C77259E110900013B41 /* UpdateOSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB92C76259E110900013B41 /* UpdateOSViewModel.swift */; };
 		EBB92C7C259E111A00013B41 /* UpdateOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB92C7B259E111A00013B41 /* UpdateOSView.swift */; };
+		EBC63DB125DE75D80060DDE0 /* EFQRCode in Frameworks */ = {isa = PBXBuildFile; productRef = EBC63DB025DE75D80060DDE0 /* EFQRCode */; };
 		EBCD2412250790F400E5574C /* ExposureSubmissionSymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD2411250790F400E5574C /* ExposureSubmissionSymptomsViewController.swift */; };
 		EBD2D07F25A869B9006E4220 /* HomeTableViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2D07E25A869B9006E4220 /* HomeTableViewModelTests.swift */; };
 		EBD2D09825A86C1A006E4220 /* RiskProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE13DC248821CB00D012E5 /* RiskProviding.swift */; };
@@ -1631,6 +1632,7 @@
 				EB7AF62E2587E98C00D94CA8 /* OpenCombineDispatch in Frameworks */,
 				B1B5A76024924B3D0029D5D7 /* FMDB in Frameworks */,
 				858F6F6E245A103C009FFD33 /* ExposureNotification.framework in Frameworks */,
+				EBC63DB125DE75D80060DDE0 /* EFQRCode in Frameworks */,
 				B1EDFD88248E741B00E7EAFF /* SwiftProtobuf in Frameworks */,
 				EB7AF62C2587E98C00D94CA8 /* OpenCombine in Frameworks */,
 				B1EDFD89248E741B00E7EAFF /* ZIPFoundation in Frameworks */,
@@ -4412,6 +4414,7 @@
 				EB7AF6292587E98C00D94CA8 /* OpenCombineFoundation */,
 				EB7AF62B2587E98C00D94CA8 /* OpenCombine */,
 				EB7AF62D2587E98C00D94CA8 /* OpenCombineDispatch */,
+				EBC63DB025DE75D80060DDE0 /* EFQRCode */,
 			);
 			productName = ENA;
 			productReference = 85D7593B2457048F008175F0 /* ENA.app */;
@@ -4518,6 +4521,7 @@
 				B1E8C9A3247AB869006DC678 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				B1B5A75E24924B3D0029D5D7 /* XCRemoteSwiftPackageReference "fmdb" */,
 				EB7AF6282587E98C00D94CA8 /* XCRemoteSwiftPackageReference "OpenCombine" */,
+				EBC63DAF25DE75D80060DDE0 /* XCRemoteSwiftPackageReference "EFQRCode" */,
 			);
 			productRefGroup = 85D7593C2457048F008175F0 /* Products */;
 			projectDirPath = "";
@@ -6545,6 +6549,14 @@
 				version = 0.11.0;
 			};
 		};
+		EBC63DAF25DE75D80060DDE0 /* XCRemoteSwiftPackageReference "EFQRCode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EFPrefix/EFQRCode";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.9;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -6577,6 +6589,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EB7AF6282587E98C00D94CA8 /* XCRemoteSwiftPackageReference "OpenCombine" */;
 			productName = OpenCombineDispatch;
+		};
+		EBC63DB025DE75D80060DDE0 /* EFQRCode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBC63DAF25DE75D80060DDE0 /* XCRemoteSwiftPackageReference "EFQRCode" */;
+			productName = EFQRCode;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

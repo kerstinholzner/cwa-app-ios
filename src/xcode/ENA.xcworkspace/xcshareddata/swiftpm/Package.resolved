@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "EFQRCode",
+        "repositoryURL": "https://github.com/EFPrefix/EFQRCode",
+        "state": {
+          "branch": null,
+          "revision": "edac54a6857fa6c2f8495cce28f23c3dc3c70f61",
+          "version": "5.1.9"
+        }
+      },
+      {
         "package": "FMDB",
         "repositoryURL": "https://github.com/ccgus/fmdb.git",
         "state": {
@@ -26,6 +35,15 @@
           "branch": null,
           "revision": "0279688c9fc5a40028e1b5bb0cb56534a45a6020",
           "version": "1.12.0"
+        }
+      },
+      {
+        "package": "swift_qrcodejs",
+        "repositoryURL": "https://github.com/ApolloZhu/swift_qrcodejs.git",
+        "state": {
+          "branch": null,
+          "revision": "53da4ea930345cb3c7d72a0e639d3318179722b4",
+          "version": "1.2.0"
         }
       },
       {
